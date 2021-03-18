@@ -80,7 +80,7 @@ Still no idea (2021.3) and here is my opinion.
 
 6. Therefore, no way to let B's `mEnterTransitionCoordinator.getPendingExitSharedElementNames()` return a non-null value without reflection. Since `mActivityTransitionState` is hidden in reflection we also need to bypass it, finally lead to such 'ugly' solution provided in repo.
 
-**Really need to share elements in multi 'pages'?**
+**Really need to share elements among multi 'pages'?**
 
 Through sharing elements among activities seems to be tricky, but everything turns good if we use Fragment instead of Activity. I had added another sample for fragment scenario. Here are also some docs and posts written by Google.
 
