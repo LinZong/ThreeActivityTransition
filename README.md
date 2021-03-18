@@ -4,7 +4,7 @@ This repo will show you how to support shared elements animations among multi ac
 
 ### Can we do this without reflection?
 
-Still no idea (2021.3) and here is why (private opinions).
+Still no idea (2021.3) and here is my opinion.
 
 > If you happed to speak Chinese, you can also refer to [中文版](./README_CN.md).
 
