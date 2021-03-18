@@ -10,9 +10,9 @@ Still no idea (2021.3) and here is why (private opinions).
 
 **Why?**
 
-1. Assuming there are 3 activities, A => B => C, (A in the bottom), calling from`supportFinishAfterTransition()` in C, API 29 on API 29 platform.
+1. Assuming there are 3 activities, A => B => C, (A in the bottom), calling from`supportFinishAfterTransition()` in C, on API 29 platform.
 
-2. Results in calling `mActivityTransitionState.startExitBackTransition(this)`, it will construct an `ExitTransitionCoordinator` which **isReturning is TRUE** , then field `mIsmIsBackgroundReady` will be false.
+2. Results in calling `mActivityTransitionState.startExitBackTransition(this)`, it will construct an `ExitTransitionCoordinator` which **isReturning is TRUE** , then field `mIsBackgroundReady` will be false.
 
    ```java
    mReturnExitCoordinator = new ExitTransitionCoordinator(activity,
