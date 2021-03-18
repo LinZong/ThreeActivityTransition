@@ -6,7 +6,7 @@ This repo will show you how to support shared elements animations among multi ac
 
 Still no idea (2021.3) and here is my opinion.
 
-> If you happed to speak Chinese, you can also refer to [中文版](./README_CN.md).
+> If you happen to speak Chinese, you can also refer to [中文版](./README_CN.md).
 
 **Why?**
 
